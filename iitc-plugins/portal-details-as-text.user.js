@@ -35,7 +35,6 @@ window.plugin.portaldetails.getDetails = function(){
 			+ now.toLocaleTimeString() + "<br/>";
 		$.each(d.resonatorArray.resonators, function(i, resonator) {
 			if (!resonator) return true; 
-			console.log(resonator.ownerGuid);
 			var agent = getPlayerName(resonator.ownerGuid);
 			if (agent) {
 				text += agent + "<br/>";
@@ -46,13 +45,13 @@ window.plugin.portaldetails.getDetails = function(){
 			title: 'Portal details',
 		});
 	}
-}
+};
 
 var setup =  function() {
   $('#toolbox').append(' <a onclick="window.plugin.portaldetails.getDetails()" title="Display portal details as text">Portal details as text</a>');
   $('head').append('<style>' +
     '</style>');
-} 
+};
 
 // PLUGIN END //////////////////////////////////////////////////////////
 
