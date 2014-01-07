@@ -1,5 +1,5 @@
 // ==UserScript==
-// @id             iitc-export-import-draw@tomle
+// @id             iitc-export-import-draw@arneschween
 // @name           IITC plugin: export and import data from draw tools
 // @version        0.0.2
 // @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
